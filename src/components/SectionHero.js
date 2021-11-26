@@ -31,7 +31,8 @@ export default class SectionHero extends React.Component {
                     )}
                   </div>
                 </div>
-              </div><p
+              </div>
+              <p
   class="
     inline-flex items-center h-12 w-max px-6
     font-semibold text-green-100 
