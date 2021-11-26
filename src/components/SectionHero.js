@@ -32,15 +32,7 @@ export default class SectionHero extends React.Component {
                   </div>
                 </div>
               </div>
-              <p
-  class="
-    inline-flex items-center h-12 w-max px-6
-    font-semibold text-green-100 
-    rounded-lg border-purple-400 border-4 border-dashed
-"
->
-  Hello world
-</p>
+              
             </section>
         );
     }
