@@ -28,7 +28,9 @@ export default class SectionHero extends React.Component {
                       <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
                     </div>
                     
-                    )<p
+                    )}
+                  </div>
+                </div><p
   class="
     inline-flex items-center h-12 w-max px-6
     font-semibold text-green-100 bg-pink-900
@@ -36,9 +38,7 @@ export default class SectionHero extends React.Component {
 "
 >
   Hello world
-</p>}
-                  </div>
-                </div>
+</p>
               </div>
             </section>
         );
