@@ -32,7 +32,7 @@ export default class SectionHero extends React.Component {
                   </div>
                 </div>
               </div>
-              <div class="hello world">Sample text standing in for a title</div>
+              
             </section>
         );
     }
