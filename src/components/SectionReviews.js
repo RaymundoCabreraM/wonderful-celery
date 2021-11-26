@@ -23,15 +23,7 @@ export default class SectionReviews extends React.Component {
                 <div className="grid">
                   {_.map(_.get(section, 'reviews', null), (review, review_idx) => (
                   <blockquote key={review_idx} className="cell review">
-                    <div className="card">
-                      <p className="review-text">{htmlToReact(_.get(review, 'content', null))}</p>
-                      <footer className="review-footer">
-                        {_.get(review, 'avatar', null) && (
-                        <img className="review-avatar" src={withPrefix(_.get(review, 'avatar', null))} alt={_.get(review, 'avatar_alt', null)}/>
-                        )}
-                        <cite className="review-author">{_.get(review, 'author', null)}</cite>
-                      </footer>
-                    </div>
+                  
                   </blockquote>
                   ))}
                 </div>
